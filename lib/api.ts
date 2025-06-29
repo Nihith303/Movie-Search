@@ -1,6 +1,6 @@
 import type { Movie } from "./types" // Assuming Movie type is declared in a separate file
 
-const API_KEY = "b591be2f"
+const API_KEY = process.env.NEXT_PUBLIC_OMDB_API_KEY
 const BASE_URL = "https://www.omdbapi.com"
 const currentYear = new Date().getFullYear();
 
